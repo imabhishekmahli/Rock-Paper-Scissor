@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image: repeating-linear-gradient(rgb(206, 206, 237),white);
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+
+#paper,#rock,#Scissor{
+    padding: 200px;
+    border-radius: 10px;
+    /* max-width: 200px; */
+    transform: scaleZ(2);
+}
